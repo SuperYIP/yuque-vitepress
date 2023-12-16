@@ -37,29 +37,28 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
 
-      - name: 拉取文档
-        env:
-          YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
-          YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
-          YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
-        run: |
-          npm run elog:sync-local          
-      # npm run elog:sync-short
-
-      # - name: 配置Git用户名邮箱
+      # - name: 拉取文档
+      #   env:
+      #     YUQUE_TOKEN: ${{ secrets.YUQUE_TOKEN }}
+      #     YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
+      #     YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
       #   run: |
-      #     git config --global user.name "SuperYIP"
-      #     git config --global user.email "me@mail.1874.cool"
+      #     npm run elog:sync-local          
 
-      - name: 提交拉取的文档到GitHub仓库
-        run: |
-          echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
-          git add .
-          git commit -m "Refresh elog.cache.json" -a
+      # # - name: 配置Git用户名邮箱
+      # #   run: |
+      # #     git config --global user.name "SuperYIP"
+      # #     git config --global user.email "me@mail.1874.cool"
 
-      - name: 推送文档到仓库
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+      # - name: 提交拉取的文档到GitHub仓库
+      #   run: |
+      #     echo `date +"%Y-%m-%d %H:%M:%S"` begin > time.txt
+      #     git add .
+      #     git commit -m "Refresh elog.cache.json" -a
+
+      # - name: 推送文档到仓库
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
         
       
