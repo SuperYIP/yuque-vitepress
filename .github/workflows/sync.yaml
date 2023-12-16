@@ -43,8 +43,7 @@ jobs:
           YUQUE_LOGIN: ${{ secrets.YUQUE_LOGIN }}
           YUQUE_REPO: ${{ secrets.YUQUE_REPO }}
         run: |
-          npm run elog:sync-local
-          
+          npm run elog:sync-local          
       # npm run elog:sync-short
 
       # - name: 配置Git用户名邮箱
