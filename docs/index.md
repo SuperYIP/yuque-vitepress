@@ -3,28 +3,26 @@
 layout: home
 
 hero:
-  name: "Yuque-VitePress"
-  text: "文档站点解决方案"
-  tagline: 语雀 + Elog + VitePress + GitHub Actions + Vercel 持续集成
+  name: "伊海迪的个人博客"
+  text: "所行即所爱"
+  tagline: /react/python/
   actions:
     - theme: brand
-      text: 快速开始
-      link: /docs/test
+      text: 进入主页
+      link: /docs/index
     - theme: brand
-      text: 短路由示例
-      link: /docs-shorturl/ssuhngw0yb3dgkkg
-    - theme: alt
-      text: GitHub
-      link: https://github.com/elog-x/yuque-vitepress
+      text: 个人杂记
+      link: /docs/index
 
 features:
   - icon: 📝
-    title: 语雀书写文档
-    details: 更好的在线写作体验，及时备份 markdown 文档到本地
-  - icon: 🚀
-    title: 持续集成
-    details: 结合语雀 Webhooks + Github Actions + Vercel，写完及时同步到文档站点
-  - icon: 📦
-    title: 开箱即用
-    details: 简单配置仓库即可部署属于你的文档站点
+    title: 客户端
+    details: 互联网搬砖
+  - icon: 📑
+    title: 普通选手
+    details: 又菜又爱学
+  - icon: 🏋️
+    title: 佛系健身
+    details: 不加班就去健身
 ---
+
