@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /docs/入门指引/快速开始
+      link: /docs/test
     - theme: brand
       text: 短路由示例
       link: /docs-shorturl/ssuhngw0yb3dgkkg
@@ -28,4 +28,3 @@ features:
     title: 开箱即用
     details: 简单配置仓库即可部署属于你的文档站点
 ---
-
