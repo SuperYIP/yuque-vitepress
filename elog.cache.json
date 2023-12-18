@@ -2326,12 +2326,12 @@
     {
       "id": 150421665,
       "doc_id": "fg12ap9qzke9z7g6",
-      "updated": 1702737338000,
+      "updated": 1702875506000,
       "properties": {
         "title": "搭建博客平台",
         "urlname": "fg12ap9qzke9z7g6",
         "date": "2023-12-16 22:15:40",
-        "updated": "2023-12-16 22:35:38",
+        "updated": "2023-12-18 12:58:26",
         "description": "文档同步工具elog：https://github.com/LetTTGACO/elogelog+语雀+vitePress+Vercel搭建博客平台方案：https://github.com/elog-x/yuque-vitepressserverless-api: https://githu..."
       },
       "catalog": [
