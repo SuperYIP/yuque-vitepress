@@ -10,4 +10,7 @@ src/ota/otaPage/views/otaPage中的renderNewTgqLayer()返回TgqLayer组件。<br
 
 
 ## 各流程总结
+### 返回
+最终调用的是src/ota/otaPage/store/index.ts中的onBackPressed()方法。
+#### 左上角导航栏返回
 

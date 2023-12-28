@@ -89,3 +89,20 @@ module.exports = override(addDecoratorsLegacy(), customize())
  
 ### @observable.ref和@observable的区别
 使用@observable.ref观察的对象只会跟踪对对象的引用更改，这意味着需要更改整个对象（引用本身被更改）（我的理解是将一个对象重新赋值给了@observable.ref观察的变量），才会触发通知。<br />使用@observable观察的对象，MobX会深度观察属性及其子属性，这意味着当属性的任何部分更改时，观察者都会被通知。
+### when方法
+在某些条件成立时再执行其中的回调函数，第一个回调中的返回值为true时，执行第二个回调中的代码。<br />执行startCheck()方法时，会先执行console.log('haidi, 进入');然后执行console.log('haidi 检查');，最后等Boolean(this.bottomTip)为true时执行console.log('haidi 执行');。
+#### 应用场景
+在组件挂载时需要执行某些方法，这些方法依赖于store中的数据，但是组件挂载时，数据可能还没有请求回来，所以可以在执行的方法中加入when函数，等数据请求回来后再做具体操作。
+```javascript
+import { when } from 'mobx';
+// 开始检查是否符合展示调研问卷的逻辑。
+startCheck = async () => {
+    console.log('haidi, 进入');
+    when(
+        () => Boolean(this.bottomTip), 	// 这个回调
+        () => {
+            console.log('haidi 执行'); 
+        }
+    )
+    console.log('haidi 检查');
+```
