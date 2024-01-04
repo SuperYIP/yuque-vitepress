@@ -829,17 +829,17 @@
     {
       "id": 145927972,
       "doc_id": "zuocy9lspbcs90fb",
-      "updated": 1702989909000,
+      "updated": 1704336894000,
       "properties": {
-        "title": "待学",
+        "title": "待办",
         "urlname": "zuocy9lspbcs90fb",
         "date": "2023-11-05 18:44:24",
-        "updated": "2023-12-19 20:45:09",
-        "description": "1. item2官网：https://iterm2.com/index.htmlmac终端工具2. sketch设计稿相关工具HarmonyOS 4.0 版本的模拟器目前仅支持 arm 架构的 mac 电脑使用，使用时需申请官网另外提供的 Emulator.zip 和 phone_arm.zi..."
+        "updated": "2024-01-04 10:54:54",
+        "description": "下实验：实验编号实验名字段名主站给的值实验结果可下代码230221_fl_gn_newpopstyle23221国内挽留弹窗新样式实验fd_143466_new_booking_pop'a'falseProductDetainAlertLayerNew组件230811_fl_gn_popbut..."
       },
       "catalog": [],
-      "realName": "待学",
-      "relativePath": "/待学.md",
+      "realName": "待办",
+      "relativePath": "/待办.md",
       "docPath": "docs/docs"
     },
     {
@@ -1205,12 +1205,12 @@
     {
       "id": 140596693,
       "doc_id": "go0h78qwzqxsv8gg",
-      "updated": 1703672121000,
+      "updated": 1704196692000,
       "properties": {
-        "title": "环境、启动相关问题",
+        "title": "环境、启动、报错问题",
         "urlname": "go0h78qwzqxsv8gg",
         "date": "2023-09-21 21:20:17",
-        "updated": "2023-12-27 18:15:21",
+        "updated": "2024-01-02 19:58:12",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1695351214316-90361033-45a9-4e24-b9cc-c4e2eb57fee7.png",
         "description": "wiki:https://wiki.corp.qunar.com/confluence/pages/viewpage.action?pageId=524620407https://wiki.corp.qunar.com/confluence/pages/viewpage.action?page..."
       },
@@ -1224,8 +1224,8 @@
           "doc_id": "go0h78qwzqxsv8gg"
         }
       ],
-      "realName": "环境、启动相关问题",
-      "relativePath": "/机票售前客户端/TarsLib工程/环境、启动相关问题.md",
+      "realName": "环境、启动、报错问题",
+      "relativePath": "/机票售前客户端/TarsLib工程/环境、启动、报错问题.md",
       "docPath": "docs/docs/机票售前客户端/TarsLib工程"
     },
     {
@@ -2377,12 +2377,12 @@
     {
       "id": 151138621,
       "doc_id": "yhhpdbxls93gxn6e",
-      "updated": 1703511291000,
+      "updated": 1704351110000,
       "properties": {
         "title": "js技巧",
         "urlname": "yhhpdbxls93gxn6e",
         "date": "2023-12-24 17:36:45",
-        "updated": "2023-12-25 21:34:51",
+        "updated": "2024-01-04 14:51:50",
         "description": "js常用技巧1. 防止重复点击：重复点击按钮只生效一次const DEBOUNCE_CLICK_DURATION = 1000;  // 1000毫米内的点击只生效第一次。 onPressHandler() {   // 若是1秒内重复点击，则不生效点击事件   if (this.lastCl..."
       },
       "catalog": [
@@ -2535,6 +2535,83 @@
       "realName": "启动、环境相关",
       "relativePath": "/机票售前客户端/iphone_ive_flight工程/启动、环境相关.md",
       "docPath": "docs/docs/机票售前客户端/iphone_ive_flight工程"
+    },
+    {
+      "id": 152129140,
+      "doc_id": "znkl313d9pqimfvh",
+      "updated": 1704281362000,
+      "properties": {
+        "title": "给手机安装app",
+        "urlname": "znkl313d9pqimfvh",
+        "date": "2024-01-03 19:05:34",
+        "updated": "2024-01-03 19:29:22",
+        "description": "主服务主服务中common/utils/config.json中将apk_url改为最新的安卓url即可：主服务配置后会在每次跑case时自动在手机中安装这个apk_url中的包。（只会在真机上这样做，云手机不这样做，因为太卡了）{     \"apk_url\": \"http://cmyum.c..."
+      },
+      "catalog": [
+        {
+          "title": "机票售前客户端",
+          "doc_id": "znkl313d9pqimfvh"
+        },
+        {
+          "title": "TarsLib工程",
+          "doc_id": "znkl313d9pqimfvh"
+        }
+      ],
+      "realName": "给手机安装app",
+      "relativePath": "/机票售前客户端/TarsLib工程/给手机安装app.md",
+      "docPath": "docs/docs/机票售前客户端/TarsLib工程"
+    },
+    {
+      "id": 151598552,
+      "doc_id": "mmrny952u23b3egl",
+      "updated": 1703758763000,
+      "properties": {
+        "title": "数据库",
+        "urlname": "mmrny952u23b3egl",
+        "date": "2023-12-28 18:13:20",
+        "updated": "2023-12-28 18:19:23",
+        "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1703758720719-0ff8dffd-d909-48bb-8bfe-4414cb4d0e26.png",
+        "description": "数据库地址：http://10.90.161.118/3826/phpMyAdmin/sql.php?server=1&db=newdb_mysql57_UI_autoTest&table=business_info&pos=0线上库名字：newdb_mysql57_UI_autoTest1...."
+      },
+      "catalog": [
+        {
+          "title": "机票售前客户端",
+          "doc_id": "mmrny952u23b3egl"
+        },
+        {
+          "title": "TarsLib工程",
+          "doc_id": "mmrny952u23b3egl"
+        }
+      ],
+      "realName": "数据库",
+      "relativePath": "/机票售前客户端/TarsLib工程/数据库.md",
+      "docPath": "docs/docs/机票售前客户端/TarsLib工程"
+    },
+    {
+      "id": 152085717,
+      "doc_id": "xe0va0x9s4xuv93q",
+      "updated": 1704264756000,
+      "properties": {
+        "title": "本地启动服务运行case",
+        "urlname": "xe0va0x9s4xuv93q",
+        "date": "2024-01-03 14:49:09",
+        "updated": "2024-01-03 14:52:36",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1704264675185-35de43aa-76c4-40fb-b240-3bd39f224728.png",
+        "description": "启动AndroidPlayBack服务，把\"http://100.80.192.124:8081/static/autocase/au20230724171101/casedata.txt\",中的case路径：au20230724171101替换为想要跑的case的路径。case路径可以在TA..."
+      },
+      "catalog": [
+        {
+          "title": "机票售前客户端",
+          "doc_id": "xe0va0x9s4xuv93q"
+        },
+        {
+          "title": "TARS_QA工程",
+          "doc_id": "xe0va0x9s4xuv93q"
+        }
+      ],
+      "realName": "本地启动服务运行case",
+      "relativePath": "/机票售前客户端/TARS_QA工程/本地启动服务运行case.md",
+      "docPath": "docs/docs/机票售前客户端/TARS_QA工程"
     }
   ],
   "catalog": [
@@ -2815,7 +2892,7 @@
       "url": "",
       "prev_uuid": "eTI0VVk_G76UmPFk",
       "sibling_uuid": "6mx07ST1PPTrCcvx",
-      "child_uuid": "SXcFgABB1jTm_e0a",
+      "child_uuid": "BYYm0WtGD2Et9acG",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -2824,11 +2901,41 @@
       "visible": 1
     },
     {
+      "type": "TITLE",
+      "title": "TARS_QA工程",
+      "uuid": "BYYm0WtGD2Et9acG",
+      "url": "",
+      "prev_uuid": "hIVB6GBCG5-kMLhJ",
+      "sibling_uuid": "SXcFgABB1jTm_e0a",
+      "child_uuid": "AGYMELIEd1VBJfY-",
+      "parent_uuid": "hIVB6GBCG5-kMLhJ",
+      "doc_id": "",
+      "level": 1,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "本地启动服务运行case",
+      "uuid": "AGYMELIEd1VBJfY-",
+      "url": "xe0va0x9s4xuv93q",
+      "prev_uuid": "BYYm0WtGD2Et9acG",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "BYYm0WtGD2Et9acG",
+      "doc_id": 152085717,
+      "level": 2,
+      "id": 152085717,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
       "type": "DOC",
       "title": "名词解释",
       "uuid": "SXcFgABB1jTm_e0a",
       "url": "hmiomyyc0o76o3dq",
-      "prev_uuid": "hIVB6GBCG5-kMLhJ",
+      "prev_uuid": "BYYm0WtGD2Et9acG",
       "sibling_uuid": "iadO31Yav81_OV8q",
       "child_uuid": "",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
@@ -3205,7 +3312,7 @@
       "url": "",
       "prev_uuid": "ezP8B2_qPeg0AOhw",
       "sibling_uuid": "",
-      "child_uuid": "dxZa6J5fLUstsX9C",
+      "child_uuid": "uAPCBQTElP3S4xNn",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
       "doc_id": "",
       "level": 1,
@@ -3215,10 +3322,40 @@
     },
     {
       "type": "DOC",
+      "title": "给手机安装app",
+      "uuid": "uAPCBQTElP3S4xNn",
+      "url": "znkl313d9pqimfvh",
+      "prev_uuid": "-5tX_WKfeTvqYmdV",
+      "sibling_uuid": "8W-TqHU6TpX12fD7",
+      "child_uuid": "",
+      "parent_uuid": "-5tX_WKfeTvqYmdV",
+      "doc_id": 152129140,
+      "level": 2,
+      "id": 152129140,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "数据库",
+      "uuid": "8W-TqHU6TpX12fD7",
+      "url": "mmrny952u23b3egl",
+      "prev_uuid": "uAPCBQTElP3S4xNn",
+      "sibling_uuid": "dxZa6J5fLUstsX9C",
+      "child_uuid": "",
+      "parent_uuid": "-5tX_WKfeTvqYmdV",
+      "doc_id": 151598552,
+      "level": 2,
+      "id": 151598552,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "本地调用从服务接口，达到调试目的",
       "uuid": "dxZa6J5fLUstsX9C",
       "url": "zhz33c5i5s8r6p6b",
-      "prev_uuid": "-5tX_WKfeTvqYmdV",
+      "prev_uuid": "8W-TqHU6TpX12fD7",
       "sibling_uuid": "w555_litBoSuxEwV",
       "child_uuid": "",
       "parent_uuid": "-5tX_WKfeTvqYmdV",
@@ -3260,7 +3397,7 @@
     },
     {
       "type": "DOC",
-      "title": "环境、启动相关问题",
+      "title": "环境、启动、报错问题",
       "uuid": "Pa3mWRYoT06gITn7",
       "url": "go0h78qwzqxsv8gg",
       "prev_uuid": "mV-y6NZG2bskL8zs",
@@ -4685,7 +4822,7 @@
     },
     {
       "type": "DOC",
-      "title": "待学",
+      "title": "待办",
       "uuid": "OMWxM3TBgkb9Z7mi",
       "url": "zuocy9lspbcs90fb",
       "prev_uuid": "7Kw9GHJqPhngmXJk",
