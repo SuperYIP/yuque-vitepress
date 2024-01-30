@@ -66,6 +66,15 @@ pushItem(ageDesc, priceName, tradeDesc, priceNameDetail, price, isReduce, size, 
     this.specialHandleForContinueX(expCode);
 }
 ```
+### 生单按钮部分
+OrderPrice组件中渲染booking页的`去支付按钮`，点击`去支付`后会调用`src/modules/booking/views/OrderPrice/index.js`中的`onSubmitHandler()`方法，在此方法中调用`submitOrderModel.processSubmit()`拉起保险浮层。<br />![image.png](../../../../images/d0795ca3a5f0daac0ca3e9871a970923.png)![image.png](../../../../images/b3791cbe842650f7a27e4e4b6b9dab72.png)<br />SubmitDetainAlert组件控制底部弹层的样式，点击去支付后共有新老样式三种：ProductDetainLayer、ProductDetainAlertLayerNew和ProductDetainAlertLayerC。<br />通过submitOrderModel中的detainAlertShowState属性控制浮窗是否展示，detainAlertShowState是个get方法，就是返回detainAlertShow的值<br />点击保险浮层中的`否和是，下一步按钮`都会直接走生单逻辑：SubmitOrderCmp中的`doSubmitRequest()`方法，然后会走生单成功onSubmitSuccess()和生单失败onSubmitFail()方法。
+
+#### 埋点和监控梳理。
+生单拦截量(submit_intercept埋点) + 保险浮窗弹出量（layerShow、oldLayerShow埋点） = 去支付 按钮点击量（submitOrder埋点，定义在onSubmitHandler方法中）（任何拉起保险浮层的按钮都会走onSubmitHandler方法）<br />否 按钮 + 是，下一步 按钮（layerButtonClick埋点、oldLayerButtonClick埋点、）点击量（点击否和是，下一步按钮都会走auto_qmark_bookingpage埋点）（关闭浮窗埋点：closeSubmitDetainAlert埋点，可能会是否 按钮 + 是，下一步 按钮点击量和的2倍） = 生单成功量(submitOrderSuccess埋点) + 生单失败量(submit_intercept埋点，走到printSubmitSingleInterceptionAirLog方法，occupyMsg: '生单失败处理')
+
+layerShow埋点监控：qav_event_flight_flight_domestic_booking_detainAlert_layerShow<br />oldLayerShow埋点监控：qav_event_flight_flight_domestic_booking_detainAlert_oldLayerShow<br />submitOrder埋点监控：qav_event_flight_flight_domestic_booking_coreModuleShow_submitOrder<br />layerButtonClick埋点监控：qav_event_flight_flight_domestic_booking_detainAlert_layerButtonClick<br />oldLayerButtonClick埋点监控：mark平台上没搜到<br />auto_qmark_bookingpage埋点监控：mark平台上没搜到<br />closeSubmitDetainAlert埋点监控：qav_event_flight_flight_domestic_booking_bookingLayerStayTime_closeSubmitDetainAlert<br />submitOrderSuccess埋点监控：qav_event_flight_flight_domestic_booking_coreModuleShow_submitOrderSuccess<br />**qav_event_flight_flight_domestic_booking_coreModuleShow_submitOrderSuccess_show_f_major_bundle_rn_android_adr_Count**<br />submit_intercept埋点监控：qav_event_flight_flight_domestic_booking_submitToCashier_submit_intercept
+
+
 ## 各流程总结
 ### booking渲染流程(也可以类比其他页面的渲染流程)
 #### 首先加载骨架屏。

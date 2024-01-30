@@ -15,7 +15,8 @@
 #### mac只格式化选中代码：`shift + option + command + f`(我修改过的)
 #### 自动保存时格式化，也可以设置只格式化修改部分，而不是全部文件。
 ![image.png](../../images/9387b83f584a887c5e1a8303af7bd6c1.png)
+### 从文件定位到左侧目录位置
+![image.png](../../images/065b244da9bd223e28b74079336f7e70.png)
 
-- <br />
 ## 写代码
 ### 在.html文件中输入！可以直接生成一个html页面的框架

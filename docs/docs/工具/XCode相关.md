@@ -20,3 +20,8 @@ open -a Simulator
 打开XCode，Window -> Devices and Simulators<br />![image.png](../../images/3771506722318822fdc7f42ad4714d39.png)<br />在弹出的操作界面，选择你要操作的模拟器，右键即可操作。<br />![image.png](../../images/d4acc5e149948e0e24fb69480464462d.png)
 
 
+## 快捷键
+### 定位到文件所在目录`command + shift + j`
+### 在新标签页打开文件，而不是在当前标签页替换原有文件
+搜索之后打开文件会像图中的红框中的文件一样是名字斜斜的，此时再点开新文件就会把此文件标签页改掉，所以需要先双击下这个斜斜的标签页，变成不斜的标签页，再在左侧搜索位置点开一个新文件就会在新标签页打开了。<br />![image.png](../../images/90b5c1331c9c70fe6192f60f4e0f435b.png)
+

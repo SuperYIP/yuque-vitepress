@@ -13,6 +13,35 @@ react生命周期主要分为三个阶段：Mounting(挂载)、Updating(更新)�
 - componentWillReceiveProps**(react17后不再使用)**
 - shouldComponentUpdate
 - componentWillUpdate**(react17后不再使用)**
+- getDerivedStateFromProps
+
+组件render前会执行getDerivedStateFromProps声明周期。getDerivedStateFromProps声明周期前需要加static关键字。在getDerivedStateFromProps中可以做些判断，决定是否对某些属性进行更新。正常的setState导致的render会正常执行的，只不过当getDerivedStateFromProps中做判断的条件成立时，会额外返回一些数据，相当于执行了一个setState。<br />使用getDerivedStateFromProps声明周期的场景：<br />state中的值由props传递进来，在render中使用的是state里的值，所以外部通过props传递进来的值改变时，不能直接导致state值的改变从而刷新页面，就需要用getDerivedStateFromProps改变state的值。
+```javascript
+constructor(props: IProps) {
+    super(props);
+    this.state = {
+        isChangeOutViewPanelShow: props.defaultShowAllOutViewPanel || false,
+        defaultShowAllOutViewPanel: props.defaultShowAllOutViewPanel || false,
+    }
+  
+static getDerivedStateFromProps(nextProps: IProps, preState: IState) {        
+    if (!nextProps || !preState) {
+        return null;
+    }
+    const { defaultShowAllOutViewPanel: nextDefaultShowAllOutViewPanel = false } = nextProps;
+    
+    if (
+        nextDefaultShowAllOutViewPanel !== preState.defaultShowAllOutViewPanel 
+    ) {            
+        return {
+            isChangeOutViewPanelShow: nextDefaultShowAllOutViewPanel,
+            defaultShowAllOutViewPanel: nextDefaultShowAllOutViewPanel
+        };
+    }
+    return null;
+}
+```
+
 - render
 - componentDidUpdate（组件更新后触发，用于处理更新后的操作。该函数有两个参数prevProps, prevState，可以获取到本次更新前的数据，用于对比更新前后数据是否有改变）
 #### 卸载阶段执行顺序
