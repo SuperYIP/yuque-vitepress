@@ -211,12 +211,12 @@
     {
       "id": 146919245,
       "doc_id": "ke0u1nwyvxib4cfo",
-      "updated": 1702022871000,
+      "updated": 1707036477000,
       "properties": {
         "title": "Text组件",
         "urlname": "ke0u1nwyvxib4cfo",
         "date": "2023-11-14 17:28:19",
-        "updated": "2023-12-08 16:07:51",
+        "updated": "2024-02-04 16:47:57",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1702022463953-3720ca8f-2e7d-4f52-80e9-d58b033853aa.png",
         "description": "<Text     numberOfLines={1} >     {text} </Text>1. Text组件中的一些常用属性1.1. numberOfLines：指定文本显示的最大行数，超过指定行数的部分会被截断，并以省略号（...）表示。2. Text组件技巧2.1. 符号、数字、文字..."
       },
@@ -309,12 +309,12 @@
     {
       "id": 148650995,
       "doc_id": "pifo579xt6my4bxc",
-      "updated": 1702807210000,
+      "updated": 1711692785000,
       "properties": {
         "title": "查问题",
         "urlname": "pifo579xt6my4bxc",
         "date": "2023-11-30 10:50:43",
-        "updated": "2023-12-17 18:00:10",
+        "updated": "2024-03-29 14:13:05",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1701312733488-b5a5ddc4-60a1-4e01-a8fd-d27b890d1eda.png",
         "description": "需要用到的系统罗盘：http://cmp.corp.qunar.com/compass/index.jsp用户中心后台管理系统：http://admin.corp.qunar.com/main.jsp#Tamias数据平台：http://tamias.corp.qunar.com/adhoc1..."
       },
@@ -400,12 +400,12 @@
     {
       "id": 148556014,
       "doc_id": "kyi5ugh65lqfee5o",
-      "updated": 1706158019000,
+      "updated": 1707287899000,
       "properties": {
         "title": "booking页总结",
         "urlname": "kyi5ugh65lqfee5o",
         "date": "2023-11-29 14:26:13",
-        "updated": "2024-01-25 12:46:59",
+        "updated": "2024-02-07 14:38:19",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1701239635984-8156bcce-cbc1-4a3e-adc6-22bd499f0708.png",
         "description": "根view是OrderFillPage.js组件结构1. 航班信息：FlightInfoViewlet FlightInfoView = <NewFlightInfo scrollToTop={this.scrollToTop} />; if (flightCharterProdsType =..."
       },
@@ -545,12 +545,13 @@
     {
       "id": 146028454,
       "doc_id": "vcnyng43cgb4qdey",
-      "updated": 1706590815000,
+      "updated": 1710904730000,
       "properties": {
         "title": "react native总结",
         "urlname": "vcnyng43cgb4qdey",
         "date": "2023-11-06 15:42:40",
-        "updated": "2024-01-30 13:00:15",
+        "updated": "2024-03-20 11:18:50",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1706683394041-7bb573e3-7275-4c2d-966b-3f95ea36c012.png",
         "description": "1. react native核心组件1.1. Alert：弹窗组件// 样式1 Alert.alert('弹出组件') // 样式2 Alert.alert(     \"警告标题\",     \"警告内容\",     [       \t{             text:\"取消\",     ..."
       },
       "catalog": [
@@ -587,12 +588,12 @@
     {
       "id": 141920051,
       "doc_id": "py4ghykyastclb1c",
-      "updated": 1705549323000,
+      "updated": 1706756158000,
       "properties": {
         "title": "vscode相关",
         "urlname": "py4ghykyastclb1c",
         "date": "2023-10-10 15:34:54",
-        "updated": "2024-01-18 11:42:03",
+        "updated": "2024-02-01 10:55:58",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1699179679538-a50c62a4-c90c-426a-af18-b5494ce0c472.png",
         "description": "插件1. Live Server插件该插件可以作为一个小型服务器，实时查看所开发网页或项目的效果。（在VSCode按ctrl+s保存后，浏览器页面就会刷新）2. 用VSCode编辑html中的scrip标签内容时，无法识别是js代码，使用快捷键注释添加的还是html的注释：<!-- -->。解..."
       },
@@ -845,14 +846,14 @@
     {
       "id": 146503482,
       "doc_id": "ng0zbxifsp7nco5x",
-      "updated": 1704714081000,
+      "updated": 1709779588000,
       "properties": {
         "title": "react生命周期",
         "urlname": "ng0zbxifsp7nco5x",
         "date": "2023-11-10 14:06:19",
-        "updated": "2024-01-08 19:41:21",
+        "updated": "2024-03-07 10:46:28",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1699598715951-65bd9505-cfa0-477e-9063-b09210e004db.png",
-        "description": "简介react生命周期主要分为三个阶段：Mounting(挂载)、Updating(更新)、Unmounting(卸载)react161. 挂载阶段执行顺序constructor（构造函数、通常用于初始化组件的状态和绑定方法）componentWillMount(react17后不再使用)re..."
+        "description": "简介参考：https://juejin.cn/post/7096137407409422344react生命周期主要分为三个阶段：Mounting(挂载)、Updating(更新)、Unmounting(卸载)react161. 挂载阶段执行顺序constructor（构造函数、通常用于初始化..."
       },
       "catalog": [
         {
@@ -1771,14 +1772,14 @@
     {
       "id": 136684113,
       "doc_id": "upsg6rok1a3kuapt",
-      "updated": 1698494385000,
+      "updated": 1706604971000,
       "properties": {
-        "title": "Charles代理Yapi",
+        "title": "Charles",
         "urlname": "upsg6rok1a3kuapt",
         "date": "2023-08-18 14:57:02",
-        "updated": "2023-10-28 19:59:45",
+        "updated": "2024-01-30 16:56:11",
         "cover": "https://cdn.nlark.com/yuque/0/2023/png/38602176/1692342376601-578fe032-d87b-4799-b15a-b1166ce396d7.png",
-        "description": "在项目中使用 YAPI 的 mock 接口会跨域，需要使用 Charles 进行代理。比如YAPI接口的地址是 https://yapi.corp.qunar.com/mock/9661 ，项目的地址是 https://talent.qunar.com 1. 打开 Charles，选择 too..."
+        "description": "charles代理YAPI在项目中使用 YAPI 的 mock 接口会跨域，需要使用 Charles 进行代理。比如YAPI接口的地址是 https://yapi.corp.qunar.com/mock/9661 ，项目的地址是 https://talent.qunar.com 1. 打开 C..."
       },
       "catalog": [
         {
@@ -1786,8 +1787,8 @@
           "doc_id": "upsg6rok1a3kuapt"
         }
       ],
-      "realName": "Charles代理Yapi",
-      "relativePath": "/工具/Charles代理Yapi.md",
+      "realName": "Charles",
+      "relativePath": "/工具/Charles.md",
       "docPath": "docs/docs/工具"
     },
     {
@@ -2469,27 +2470,6 @@
       "docPath": "docs/docs/react native"
     },
     {
-      "id": 150876389,
-      "doc_id": "hmiomyyc0o76o3dq",
-      "updated": 1703139043000,
-      "properties": {
-        "title": "名词解释",
-        "urlname": "hmiomyyc0o76o3dq",
-        "date": "2023-12-21 12:13:02",
-        "updated": "2023-12-21 14:10:43",
-        "description": "1. uv和pv参考：https://zhuanlan.zhihu.com/p/49329968uv（unique view）：访问用户数pv（page view）：访问次数"
-      },
-      "catalog": [
-        {
-          "title": "机票售前客户端",
-          "doc_id": "hmiomyyc0o76o3dq"
-        }
-      ],
-      "realName": "名词解释",
-      "relativePath": "/机票售前客户端/名词解释.md",
-      "docPath": "docs/docs/机票售前客户端"
-    },
-    {
       "id": 150774371,
       "doc_id": "xagwzs46qrgg5wxz",
       "updated": 1703055457000,
@@ -2639,13 +2619,13 @@
     {
       "id": 156748370,
       "doc_id": "gsn1e24ios3vggyi",
-      "updated": 1705890580000,
+      "updated": 1708652305000,
       "properties": {
         "title": "GTP调研",
         "urlname": "gsn1e24ios3vggyi",
         "date": "2024-01-22 10:29:26",
-        "updated": "2024-01-22 10:29:40",
-        "description": "minigpt：分析图片内容"
+        "updated": "2024-02-23 09:38:25",
+        "description": "minigpt：分析图片遇到的问题"
       },
       "catalog": [
         {
@@ -2771,14 +2751,14 @@
     {
       "id": 156021242,
       "doc_id": "utc7lpvxld6bfg3d",
-      "updated": 1705298719000,
+      "updated": 1709100567000,
       "properties": {
         "title": "Watcher平台",
         "urlname": "utc7lpvxld6bfg3d",
         "date": "2024-01-15 12:14:07",
-        "updated": "2024-01-15 14:05:19",
+        "updated": "2024-02-28 14:09:27",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1705292091000-37184be4-b96b-4ae8-9c60-0298fd1b18f0.png",
-        "description": "统计的是pv指标。纵坐标：标识单位时间的量（单位时间具体是几秒还是几分钟不知道）横坐标：时间区间Total * 60：当前选中区间的面板中的所有量，比如选中过去24小时，表示的就是过去1天的量。watcher面板上的折线图只能看趋势，纵坐标其实意义不大，没办法直观知道确切的一个时间点的量，想要..."
+        "description": "1. 查看watcher面板统计的是pv指标。纵坐标：标识单位时间的量（单位时间具体是几秒还是几分钟不知道）横坐标：时间区间Total * 60：当前选中区间的面板中的所有量，比如选中过去24小时，表示的就是过去1天的量。watcher面板上的折线图只能看趋势，纵坐标其实意义不大，没办法直观知..."
       },
       "catalog": [
         {
@@ -2814,14 +2794,14 @@
     {
       "id": 155572950,
       "doc_id": "utmivvk6u1oxv3e9",
-      "updated": 1704885240000,
+      "updated": 1708941097000,
       "properties": {
         "title": "Pycharm相关",
         "urlname": "utmivvk6u1oxv3e9",
         "date": "2024-01-10 19:03:12",
-        "updated": "2024-01-10 19:14:00",
+        "updated": "2024-02-26 17:51:37",
         "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1704884835666-5951de54-ab16-40f1-a8d0-9f3c184ae46d.png",
-        "description": "Pycharm相关插件按下图方式进入插件安装界面，搜索要安装的插件安装即可。1. 中文语言插件Chinese(Simplified) Language Pack2. copilot插件安装后，使用配置虚拟环境https://juejin.cn/post/7127489582890745887"
+        "description": "Pycharm相关插件按下图方式进入插件安装界面，搜索要安装的插件安装即可。1. 中文语言插件Chinese(Simplified) Language Pack2. copilot插件安装后，3. 截图插件：Easy Code ScreenShots安装后，光标选中需要截图的区域，按快捷键：c..."
       },
       "catalog": [
         {
@@ -2874,6 +2854,321 @@
       "realName": "vscode调试ts代码",
       "relativePath": "/js/vscode调试ts代码.md",
       "docPath": "docs/docs/js"
+    },
+    {
+      "id": 163405817,
+      "doc_id": "pd6kcwo9aqoc7nr3",
+      "updated": 1711508119000,
+      "properties": {
+        "title": "AirTest",
+        "urlname": "pd6kcwo9aqoc7nr3",
+        "date": "2024-03-27 10:53:51",
+        "updated": "2024-03-27 10:55:19",
+        "description": "下载安装文档：https://airtest.doc.io.netease.com/IDEdocs/getting_started/AirtestIDE_install/mac安装后启动没反应可以通过终端命令方式启动cd /Applications ./AirtestIDE.app/Conte..."
+      },
+      "catalog": [
+        {
+          "title": "工具",
+          "doc_id": "pd6kcwo9aqoc7nr3"
+        }
+      ],
+      "realName": "AirTest",
+      "relativePath": "/工具/AirTest.md",
+      "docPath": "docs/docs/工具"
+    },
+    {
+      "id": 161595301,
+      "doc_id": "go3ispr2g90wz0ga",
+      "updated": 1711698048000,
+      "properties": {
+        "title": "AI自动化",
+        "urlname": "go3ispr2g90wz0ga",
+        "date": "2024-03-13 10:35:44",
+        "updated": "2024-03-29 15:40:48",
+        "description": "case整理case_list = [     \"Home页-->点击出发地-->北京-->选择目的地城市-->上海-->点击搜索\",     \"Home页-->切换到往返-->选择出发日期-->确定-->选择返回日期-->关闭日期选择浮窗-->点击搜索\",     \"Home页-->值机选座..."
+      },
+      "catalog": [
+        {
+          "title": "待办",
+          "doc_id": "go3ispr2g90wz0ga"
+        }
+      ],
+      "realName": "AI自动化",
+      "relativePath": "/待办/AI自动化.md",
+      "docPath": "docs/docs/待办"
+    },
+    {
+      "id": 161957367,
+      "doc_id": "qnk7y9s58cd5zmsf",
+      "updated": 1710486143000,
+      "properties": {
+        "title": "python知识总结",
+        "urlname": "qnk7y9s58cd5zmsf",
+        "date": "2024-03-15 14:33:42",
+        "updated": "2024-03-15 15:02:23",
+        "description": "定义print()输出的文字颜色：colorama库from colorama import Fore print(Fore.RED, '此print输出的内容就都是红色的了')将字符串转换为其中包含的数据类型，如：\"字典\"，\"列表\"字符串转换为字典、列表类型import ast res_st..."
+      },
+      "catalog": [
+        {
+          "title": "python",
+          "doc_id": "qnk7y9s58cd5zmsf"
+        }
+      ],
+      "realName": "python知识总结",
+      "relativePath": "/python/python知识总结.md",
+      "docPath": "docs/docs/python"
+    },
+    {
+      "id": 158099834,
+      "doc_id": "zym1x2ll4s488u1n",
+      "updated": 1709881191000,
+      "properties": {
+        "title": "langchain",
+        "urlname": "zym1x2ll4s488u1n",
+        "date": "2024-02-04 21:12:16",
+        "updated": "2024-03-08 14:59:51",
+        "description": "知乎博主，文章不错：https://www.zhihu.com/people/fireshort谷歌搜索的apikey参考：https://blog.csdn.net/wenxingchen/article/details/130474611官网：https://serpapi.com/man..."
+      },
+      "catalog": [
+        {
+          "title": "AIGC",
+          "doc_id": "zym1x2ll4s488u1n"
+        }
+      ],
+      "realName": "langchain",
+      "relativePath": "/AIGC/langchain.md",
+      "docPath": "docs/docs/AIGC"
+    },
+    {
+      "id": 160851171,
+      "doc_id": "tisulwi6srpiadwh",
+      "updated": 1709783971000,
+      "properties": {
+        "title": "页面渲染流程",
+        "urlname": "tisulwi6srpiadwh",
+        "date": "2024-03-06 20:34:17",
+        "updated": "2024-03-07 11:59:31",
+        "description": "以从ota页跳转到booking页为例：点击预订后会跳转到booking，booking页的的根页面：OrderFillView会被加载。OrderFillView组件加载过程中遵循react的声明周期：首先执行构造函数constructor方法，在中constructor中会调用bookin..."
+      },
+      "catalog": [
+        {
+          "title": "机票售前客户端",
+          "doc_id": "tisulwi6srpiadwh"
+        }
+      ],
+      "realName": "页面渲染流程",
+      "relativePath": "/机票售前客户端/页面渲染流程.md",
+      "docPath": "docs/docs/机票售前客户端"
+    },
+    {
+      "id": 160811297,
+      "doc_id": "yrvu81wsigma2pxh",
+      "updated": 1709777417000,
+      "properties": {
+        "title": "一些术语",
+        "urlname": "yrvu81wsigma2pxh",
+        "date": "2024-03-06 16:01:29",
+        "updated": "2024-03-07 10:10:17",
+        "description": "1. 首屏、一屏、二屏首屏：一个页面第一次渲染完成的样子，通常是骨架屏。一屏：app中不需要上下滑动我们见到的那部分屏幕。二屏：app中需要向下滑动才能见到的那部分屏幕。2. 用户感知时间指标TTI(可交互时间)：页面加载到可以与用户进行交互的时间，也就是从上一个页面点击跳转按钮，到下一个页面..."
+      },
+      "catalog": [
+        {
+          "title": "前端知识",
+          "doc_id": "yrvu81wsigma2pxh"
+        }
+      ],
+      "realName": "一些术语",
+      "relativePath": "/前端知识/一些术语.md",
+      "docPath": "docs/docs/前端知识"
+    },
+    {
+      "id": 160512522,
+      "doc_id": "gkcso43dq2m0rtle",
+      "updated": 1709544164000,
+      "properties": {
+        "title": "mark：埋点",
+        "urlname": "gkcso43dq2m0rtle",
+        "date": "2024-03-04 16:12:56",
+        "updated": "2024-03-04 17:22:44",
+        "description": "埋点分为三种：基础架构那边的自动埋点和我们业务线的自动埋点，以及开发自己写的的业务埋点。自动埋点中目前看到两种格式：一种是基础架构的：1709093538129*rn_press**f_major_bundle_rn@SearchListView:SearchListView.0.0.0.0...."
+      },
+      "catalog": [
+        {
+          "title": "Qunar环境使用",
+          "doc_id": "gkcso43dq2m0rtle"
+        }
+      ],
+      "realName": "mark：埋点",
+      "relativePath": "/Qunar环境使用/mark：埋点.md",
+      "docPath": "docs/docs/Qunar环境使用"
+    },
+    {
+      "id": 160554425,
+      "doc_id": "ye77ufge5yvifp9m",
+      "updated": 1709558114000,
+      "properties": {
+        "title": "BDD和Gherkin",
+        "urlname": "ye77ufge5yvifp9m",
+        "date": "2024-03-04 20:49:12",
+        "updated": "2024-03-04 21:15:14",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1709556895121-404d7a5e-87ca-4201-b533-7c466b9a2f96.png",
+        "description": "参考：http://pages.release.ctripcorp.com/hotelnative/spirit/bdd/BDD_introduce.htmlGherkin语法关键字Gherkin语言通常包括以下关键词和语法结构：Scenario（场景）：描述一个特定的测试场景或用例。Give..."
+      },
+      "catalog": [
+        {
+          "title": "前端知识",
+          "doc_id": "ye77ufge5yvifp9m"
+        }
+      ],
+      "realName": "BDD和Gherkin",
+      "relativePath": "/前端知识/BDD和Gherkin.md",
+      "docPath": "docs/docs/前端知识"
+    },
+    {
+      "id": 160112397,
+      "doc_id": "bprklgp7zipl172t",
+      "updated": 1709208915000,
+      "properties": {
+        "title": "function call",
+        "urlname": "bprklgp7zipl172t",
+        "date": "2024-02-29 20:08:17",
+        "updated": "2024-02-29 20:15:15",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1709208500242-edfeb7d0-a9c9-4ef1-acac-b42cf34158c3.png"
+      },
+      "catalog": [
+        {
+          "title": "AIGC",
+          "doc_id": "bprklgp7zipl172t"
+        }
+      ],
+      "realName": "function call",
+      "relativePath": "/AIGC/function call.md",
+      "docPath": "docs/docs/AIGC"
+    },
+    {
+      "id": 160111903,
+      "doc_id": "xbtdd5wg0zegbgfm",
+      "updated": 1709208384000,
+      "properties": {
+        "title": "copilot",
+        "urlname": "xbtdd5wg0zegbgfm",
+        "date": "2024-02-29 20:03:06",
+        "updated": "2024-02-29 20:06:24",
+        "description": "copilot会根据本地代码构建知识库，作为prompt的一部分去询问大模型。具体会使用：编辑器中所有打开的tab页中的代码作为知识库，光标所在的位置上下文的代码权重可能会更高。"
+      },
+      "catalog": [
+        {
+          "title": "工具",
+          "doc_id": "xbtdd5wg0zegbgfm"
+        }
+      ],
+      "realName": "copilot",
+      "relativePath": "/工具/copilot.md",
+      "docPath": "docs/docs/工具"
+    },
+    {
+      "id": 159748823,
+      "doc_id": "npvxg13s0ro1sqec",
+      "updated": 1709004112000,
+      "properties": {
+        "title": "知识点",
+        "urlname": "npvxg13s0ro1sqec",
+        "date": "2024-02-27 11:12:54",
+        "updated": "2024-02-27 11:21:52",
+        "description": "大语言模型（LLM）问题llm产生的结果可能存在三个问题：偏见、幻觉、过时偏见：模型训练时可能会包含偏见信息的问题，比如年龄歧视的，输出时就可能包含这些偏见信息。幻觉：模型产生答案的本质是预测下一个字是啥，所以答案有概率是胡编乱造的。过时：模型的训练预料是有时间节点的，问超过此时间节点的数据，..."
+      },
+      "catalog": [
+        {
+          "title": "AIGC",
+          "doc_id": "npvxg13s0ro1sqec"
+        }
+      ],
+      "realName": "知识点",
+      "relativePath": "/AIGC/知识点.md",
+      "docPath": "docs/docs/AIGC"
+    },
+    {
+      "id": 159152691,
+      "doc_id": "xls4abgiwr89fkx7",
+      "updated": 1708918956000,
+      "properties": {
+        "title": "fast-api",
+        "urlname": "xls4abgiwr89fkx7",
+        "date": "2024-02-21 16:37:21",
+        "updated": "2024-02-26 11:42:36",
+        "description": "启动服务启动服务：--reload表示热加载，修改代码后不需要重启服务，保存代码即可生效uvicorn main:app --reload启动服务：指定ip和端口，端口默认是8000：mac电脑ip获取方式：ifconfig | grep \"inet\" | grep \"100\"uvicorn ..."
+      },
+      "catalog": [
+        {
+          "title": "python",
+          "doc_id": "xls4abgiwr89fkx7"
+        }
+      ],
+      "realName": "fast-api",
+      "relativePath": "/python/fast-api.md",
+      "docPath": "docs/docs/python"
+    },
+    {
+      "id": 159609127,
+      "doc_id": "iflcfv8hy1puwqmf",
+      "updated": 1708917134000,
+      "properties": {
+        "title": "post man",
+        "urlname": "iflcfv8hy1puwqmf",
+        "date": "2024-02-26 10:59:31",
+        "updated": "2024-02-26 11:12:14"
+      },
+      "catalog": [
+        {
+          "title": "工具",
+          "doc_id": "iflcfv8hy1puwqmf"
+        }
+      ],
+      "realName": "post man",
+      "relativePath": "/工具/post man.md",
+      "docPath": "docs/docs/工具"
+    },
+    {
+      "id": 158099849,
+      "doc_id": "gtnngghegg9kp78d",
+      "updated": 1707052713000,
+      "properties": {
+        "title": "智谱：zhipu",
+        "urlname": "gtnngghegg9kp78d",
+        "date": "2024-02-04 21:12:28",
+        "updated": "2024-02-04 21:18:33",
+        "description": "网页端Chat：https://open.bigmodel.cn/trialcenter接口文档：https://open.bigmodel.cn/dev/api#glm-41. langchain调用zhipuAPI11.1. 方式1: 按下述方式定义，通过sse调用，在ChatOpenAI..."
+      },
+      "catalog": [
+        {
+          "title": "AIGC",
+          "doc_id": "gtnngghegg9kp78d"
+        }
+      ],
+      "realName": "智谱：zhipu",
+      "relativePath": "/AIGC/智谱：zhipu.md",
+      "docPath": "docs/docs/AIGC"
+    },
+    {
+      "id": 157646486,
+      "doc_id": "sgqe5m7yun0svhb8",
+      "updated": 1706618104000,
+      "properties": {
+        "title": "网址整理",
+        "urlname": "sgqe5m7yun0svhb8",
+        "date": "2024-01-30 20:34:41",
+        "updated": "2024-01-30 20:35:04",
+        "description": "okr：https://okr.corp.qunar.com/okr/departments/724"
+      },
+      "catalog": [
+        {
+          "title": "机票售前客户端",
+          "doc_id": "sgqe5m7yun0svhb8"
+        }
+      ],
+      "realName": "网址整理",
+      "relativePath": "/机票售前客户端/网址整理.md",
+      "docPath": "docs/docs/机票售前客户端"
     }
   ],
   "catalog": [
@@ -2884,7 +3179,7 @@
       "url": "",
       "prev_uuid": "",
       "sibling_uuid": "hIVB6GBCG5-kMLhJ",
-      "child_uuid": "0kvisVP6YY9v4Lpr",
+      "child_uuid": "zpJCFkViyWTo9-SD",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -2894,10 +3189,25 @@
     },
     {
       "type": "DOC",
+      "title": "mark：埋点",
+      "uuid": "zpJCFkViyWTo9-SD",
+      "url": "gkcso43dq2m0rtle",
+      "prev_uuid": "eTI0VVk_G76UmPFk",
+      "sibling_uuid": "0kvisVP6YY9v4Lpr",
+      "child_uuid": "",
+      "parent_uuid": "eTI0VVk_G76UmPFk",
+      "doc_id": 160512522,
+      "level": 1,
+      "id": 160512522,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Watcher平台",
       "uuid": "0kvisVP6YY9v4Lpr",
       "url": "utc7lpvxld6bfg3d",
-      "prev_uuid": "eTI0VVk_G76UmPFk",
+      "prev_uuid": "zpJCFkViyWTo9-SD",
       "sibling_uuid": "9Xib1YF2fzGvJD2m",
       "child_uuid": "",
       "parent_uuid": "eTI0VVk_G76UmPFk",
@@ -3169,7 +3479,7 @@
       "url": "",
       "prev_uuid": "eTI0VVk_G76UmPFk",
       "sibling_uuid": "6mx07ST1PPTrCcvx",
-      "child_uuid": "B7MnbqFNUo-hGTpg",
+      "child_uuid": "fZfSAvf7Bg7gFLBj",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -3178,11 +3488,56 @@
       "visible": 1
     },
     {
+      "type": "DOC",
+      "title": "页面渲染流程",
+      "uuid": "fZfSAvf7Bg7gFLBj",
+      "url": "tisulwi6srpiadwh",
+      "prev_uuid": "hIVB6GBCG5-kMLhJ",
+      "sibling_uuid": "pan9xkFBGoQUK58c",
+      "child_uuid": "",
+      "parent_uuid": "hIVB6GBCG5-kMLhJ",
+      "doc_id": 160851171,
+      "level": 1,
+      "id": 160851171,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "网址整理",
+      "uuid": "pan9xkFBGoQUK58c",
+      "url": "sgqe5m7yun0svhb8",
+      "prev_uuid": "fZfSAvf7Bg7gFLBj",
+      "sibling_uuid": "t9FmWu3u6QmPvVsU",
+      "child_uuid": "",
+      "parent_uuid": "hIVB6GBCG5-kMLhJ",
+      "doc_id": 157646486,
+      "level": 1,
+      "id": 157646486,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "接口整理",
+      "uuid": "t9FmWu3u6QmPvVsU",
+      "url": "zyg01iwpsimacyi2",
+      "prev_uuid": "pan9xkFBGoQUK58c",
+      "sibling_uuid": "B7MnbqFNUo-hGTpg",
+      "child_uuid": "",
+      "parent_uuid": "hIVB6GBCG5-kMLhJ",
+      "doc_id": 149044726,
+      "level": 1,
+      "id": 149044726,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
       "type": "TITLE",
       "title": "f_resource_assets_rn工程",
       "uuid": "B7MnbqFNUo-hGTpg",
       "url": "",
-      "prev_uuid": "hIVB6GBCG5-kMLhJ",
+      "prev_uuid": "t9FmWu3u6QmPvVsU",
       "sibling_uuid": "l64kb5KMuze6n14d",
       "child_uuid": "YpnWHbMlMyJAxmdn",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
@@ -3243,7 +3598,7 @@
       "uuid": "BYYm0WtGD2Et9acG",
       "url": "",
       "prev_uuid": "vh06UBpEJTX5dUjE",
-      "sibling_uuid": "SXcFgABB1jTm_e0a",
+      "sibling_uuid": "iadO31Yav81_OV8q",
       "child_uuid": "AGYMELIEd1VBJfY-",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
       "doc_id": "",
@@ -3268,26 +3623,11 @@
       "visible": 1
     },
     {
-      "type": "DOC",
-      "title": "名词解释",
-      "uuid": "SXcFgABB1jTm_e0a",
-      "url": "hmiomyyc0o76o3dq",
-      "prev_uuid": "BYYm0WtGD2Et9acG",
-      "sibling_uuid": "iadO31Yav81_OV8q",
-      "child_uuid": "",
-      "parent_uuid": "hIVB6GBCG5-kMLhJ",
-      "doc_id": 150876389,
-      "level": 1,
-      "id": 150876389,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
       "type": "TITLE",
       "title": "size分析",
       "uuid": "iadO31Yav81_OV8q",
       "url": "",
-      "prev_uuid": "SXcFgABB1jTm_e0a",
+      "prev_uuid": "BYYm0WtGD2Et9acG",
       "sibling_uuid": "nExogkKHHvqgSVRE",
       "child_uuid": "lSLD-33slKbO99z5",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
@@ -3318,7 +3658,7 @@
       "uuid": "nExogkKHHvqgSVRE",
       "url": "",
       "prev_uuid": "iadO31Yav81_OV8q",
-      "sibling_uuid": "t9FmWu3u6QmPvVsU",
+      "sibling_uuid": "6MJYsSA_bRa2SvpC",
       "child_uuid": "oVG85w2hKBg2whUN",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
       "doc_id": "",
@@ -3343,26 +3683,11 @@
       "visible": 1
     },
     {
-      "type": "DOC",
-      "title": "接口整理",
-      "uuid": "t9FmWu3u6QmPvVsU",
-      "url": "zyg01iwpsimacyi2",
-      "prev_uuid": "nExogkKHHvqgSVRE",
-      "sibling_uuid": "6MJYsSA_bRa2SvpC",
-      "child_uuid": "",
-      "parent_uuid": "hIVB6GBCG5-kMLhJ",
-      "doc_id": 149044726,
-      "level": 1,
-      "id": 149044726,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
       "type": "TITLE",
       "title": "home_rn工程",
       "uuid": "6MJYsSA_bRa2SvpC",
       "url": "",
-      "prev_uuid": "t9FmWu3u6QmPvVsU",
+      "prev_uuid": "nExogkKHHvqgSVRE",
       "sibling_uuid": "RcqzKivA6DSgnkHk",
       "child_uuid": "LFzNboRjHmlSOP6G",
       "parent_uuid": "hIVB6GBCG5-kMLhJ",
@@ -4083,8 +4408,8 @@
       "uuid": "XgCMzEyIzrUhAN3A",
       "url": "",
       "prev_uuid": "6uLzt0nOwEu3zDX7",
-      "sibling_uuid": "sx7Id3XjaWix01Y6",
-      "child_uuid": "6ZLwGsrKL2gHkgkp",
+      "sibling_uuid": "zqyE_ELb45fTtHQk",
+      "child_uuid": "mL7-aw6KVWAEMlLb",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -4094,10 +4419,25 @@
     },
     {
       "type": "DOC",
+      "title": "react native总结",
+      "uuid": "mL7-aw6KVWAEMlLb",
+      "url": "vcnyng43cgb4qdey",
+      "prev_uuid": "XgCMzEyIzrUhAN3A",
+      "sibling_uuid": "6ZLwGsrKL2gHkgkp",
+      "child_uuid": "",
+      "parent_uuid": "XgCMzEyIzrUhAN3A",
+      "doc_id": 146028454,
+      "level": 1,
+      "id": 146028454,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "react-native第三方库",
       "uuid": "6ZLwGsrKL2gHkgkp",
       "url": "hcimfr5fn6n9xfpi",
-      "prev_uuid": "XgCMzEyIzrUhAN3A",
+      "prev_uuid": "mL7-aw6KVWAEMlLb",
       "sibling_uuid": "qa9dupb_EhSpIPz6",
       "child_uuid": "",
       "parent_uuid": "XgCMzEyIzrUhAN3A",
@@ -4263,7 +4603,7 @@
       "uuid": "NjOYePMGAyYcpOa3",
       "url": "cihrbt13q65g79bz",
       "prev_uuid": "J-dMJoh37wVo786p",
-      "sibling_uuid": "mL7-aw6KVWAEMlLb",
+      "sibling_uuid": "cWHbzUjeGmKvd_hB",
       "child_uuid": "",
       "parent_uuid": "XgCMzEyIzrUhAN3A",
       "doc_id": 146732237,
@@ -4274,25 +4614,10 @@
     },
     {
       "type": "DOC",
-      "title": "react native总结",
-      "uuid": "mL7-aw6KVWAEMlLb",
-      "url": "vcnyng43cgb4qdey",
-      "prev_uuid": "NjOYePMGAyYcpOa3",
-      "sibling_uuid": "cWHbzUjeGmKvd_hB",
-      "child_uuid": "",
-      "parent_uuid": "XgCMzEyIzrUhAN3A",
-      "doc_id": 146028454,
-      "level": 1,
-      "id": 146028454,
-      "open_window": 1,
-      "visible": 1
-    },
-    {
-      "type": "DOC",
       "title": "Qunar框架知识点",
       "uuid": "cWHbzUjeGmKvd_hB",
       "url": "opech0ufoyvkwhgr",
-      "prev_uuid": "mL7-aw6KVWAEMlLb",
+      "prev_uuid": "NjOYePMGAyYcpOa3",
       "sibling_uuid": "Kb3jF_XcPQxveX_5",
       "child_uuid": "",
       "parent_uuid": "XgCMzEyIzrUhAN3A",
@@ -4334,10 +4659,85 @@
     },
     {
       "type": "TITLE",
+      "title": "AIGC",
+      "uuid": "zqyE_ELb45fTtHQk",
+      "url": "",
+      "prev_uuid": "XgCMzEyIzrUhAN3A",
+      "sibling_uuid": "sx7Id3XjaWix01Y6",
+      "child_uuid": "UQyd4_vXQfk5d3rM",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "function call",
+      "uuid": "UQyd4_vXQfk5d3rM",
+      "url": "bprklgp7zipl172t",
+      "prev_uuid": "zqyE_ELb45fTtHQk",
+      "sibling_uuid": "AyMRAxZG84BZmL8b",
+      "child_uuid": "",
+      "parent_uuid": "zqyE_ELb45fTtHQk",
+      "doc_id": 160112397,
+      "level": 1,
+      "id": 160112397,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "知识点",
+      "uuid": "AyMRAxZG84BZmL8b",
+      "url": "npvxg13s0ro1sqec",
+      "prev_uuid": "UQyd4_vXQfk5d3rM",
+      "sibling_uuid": "dAyAJkKRlBX0sZ5o",
+      "child_uuid": "",
+      "parent_uuid": "zqyE_ELb45fTtHQk",
+      "doc_id": 159748823,
+      "level": 1,
+      "id": 159748823,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "智谱：zhipu",
+      "uuid": "dAyAJkKRlBX0sZ5o",
+      "url": "gtnngghegg9kp78d",
+      "prev_uuid": "AyMRAxZG84BZmL8b",
+      "sibling_uuid": "zRy8g5a1mu_iOulH",
+      "child_uuid": "",
+      "parent_uuid": "zqyE_ELb45fTtHQk",
+      "doc_id": 158099849,
+      "level": 1,
+      "id": 158099849,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "langchain",
+      "uuid": "zRy8g5a1mu_iOulH",
+      "url": "zym1x2ll4s488u1n",
+      "prev_uuid": "dAyAJkKRlBX0sZ5o",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "zqyE_ELb45fTtHQk",
+      "doc_id": 158099834,
+      "level": 1,
+      "id": 158099834,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "TITLE",
       "title": "组件库",
       "uuid": "sx7Id3XjaWix01Y6",
       "url": "",
-      "prev_uuid": "XgCMzEyIzrUhAN3A",
+      "prev_uuid": "zqyE_ELb45fTtHQk",
       "sibling_uuid": "Bbufp9-aCCu779bD",
       "child_uuid": "PKug3qS9QYwoxWXN",
       "parent_uuid": "",
@@ -4579,7 +4979,7 @@
       "url": "",
       "prev_uuid": "24VyL-C2tOKXCwcG",
       "sibling_uuid": "R9ivqxpqfFoxlt8O",
-      "child_uuid": "xXPvqXRr-ILD2txF",
+      "child_uuid": "QxxRdFzrU-BD3HqJ",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -4589,10 +4989,40 @@
     },
     {
       "type": "DOC",
+      "title": "python知识总结",
+      "uuid": "QxxRdFzrU-BD3HqJ",
+      "url": "qnk7y9s58cd5zmsf",
+      "prev_uuid": "DtppxjnEG3HHoSRe",
+      "sibling_uuid": "E11353Xc9cd9RMLy",
+      "child_uuid": "",
+      "parent_uuid": "DtppxjnEG3HHoSRe",
+      "doc_id": 161957367,
+      "level": 1,
+      "id": 161957367,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "fast-api",
+      "uuid": "E11353Xc9cd9RMLy",
+      "url": "xls4abgiwr89fkx7",
+      "prev_uuid": "QxxRdFzrU-BD3HqJ",
+      "sibling_uuid": "xXPvqXRr-ILD2txF",
+      "child_uuid": "",
+      "parent_uuid": "DtppxjnEG3HHoSRe",
+      "doc_id": 159152691,
+      "level": 1,
+      "id": 159152691,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "安装OSS-SDK库",
       "uuid": "xXPvqXRr-ILD2txF",
       "url": "oghl8r7rqfvs5kzr",
-      "prev_uuid": "DtppxjnEG3HHoSRe",
+      "prev_uuid": "E11353Xc9cd9RMLy",
       "sibling_uuid": "FjocKLi9NBAIVbLA",
       "child_uuid": "",
       "parent_uuid": "DtppxjnEG3HHoSRe",
@@ -4729,7 +5159,7 @@
       "url": "",
       "prev_uuid": "y9SleXjmOzO5dsQj",
       "sibling_uuid": "j1MpDF2fa3PYZcYw",
-      "child_uuid": "ORpJOFvQUykjJeIc",
+      "child_uuid": "ulPrRDr3dAa1Gj0u",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -4739,10 +5169,40 @@
     },
     {
       "type": "DOC",
+      "title": "一些术语",
+      "uuid": "ulPrRDr3dAa1Gj0u",
+      "url": "yrvu81wsigma2pxh",
+      "prev_uuid": "3m7RLcbpomQqrEaI",
+      "sibling_uuid": "x5jPsZ5wUOIl4L9B",
+      "child_uuid": "",
+      "parent_uuid": "3m7RLcbpomQqrEaI",
+      "doc_id": 160811297,
+      "level": 1,
+      "id": 160811297,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "BDD和Gherkin",
+      "uuid": "x5jPsZ5wUOIl4L9B",
+      "url": "ye77ufge5yvifp9m",
+      "prev_uuid": "ulPrRDr3dAa1Gj0u",
+      "sibling_uuid": "ORpJOFvQUykjJeIc",
+      "child_uuid": "",
+      "parent_uuid": "3m7RLcbpomQqrEaI",
+      "doc_id": 160554425,
+      "level": 1,
+      "id": 160554425,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "一些编码知识",
       "uuid": "ORpJOFvQUykjJeIc",
       "url": "nuwvcgdm8qi4862a",
-      "prev_uuid": "3m7RLcbpomQqrEaI",
+      "prev_uuid": "x5jPsZ5wUOIl4L9B",
       "sibling_uuid": "2hi7J3bIru0bSNL8",
       "child_uuid": "",
       "parent_uuid": "3m7RLcbpomQqrEaI",
@@ -4924,7 +5384,7 @@
       "url": "",
       "prev_uuid": "j1MpDF2fa3PYZcYw",
       "sibling_uuid": "vZyAsgSqpqBmGYSm",
-      "child_uuid": "DggROdWW1GTA0yg0",
+      "child_uuid": "0-uqyKgPyLItCTVE",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -4934,10 +5394,55 @@
     },
     {
       "type": "DOC",
+      "title": "AirTest",
+      "uuid": "0-uqyKgPyLItCTVE",
+      "url": "pd6kcwo9aqoc7nr3",
+      "prev_uuid": "gWrZN9HfLSdW7jLy",
+      "sibling_uuid": "w9QiKiBEAhfS7tgC",
+      "child_uuid": "",
+      "parent_uuid": "gWrZN9HfLSdW7jLy",
+      "doc_id": 163405817,
+      "level": 1,
+      "id": 163405817,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "copilot",
+      "uuid": "w9QiKiBEAhfS7tgC",
+      "url": "xbtdd5wg0zegbgfm",
+      "prev_uuid": "0-uqyKgPyLItCTVE",
+      "sibling_uuid": "AEe8WcgqS1OQ1bSg",
+      "child_uuid": "",
+      "parent_uuid": "gWrZN9HfLSdW7jLy",
+      "doc_id": 160111903,
+      "level": 1,
+      "id": 160111903,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "post man",
+      "uuid": "AEe8WcgqS1OQ1bSg",
+      "url": "iflcfv8hy1puwqmf",
+      "prev_uuid": "w9QiKiBEAhfS7tgC",
+      "sibling_uuid": "DggROdWW1GTA0yg0",
+      "child_uuid": "",
+      "parent_uuid": "gWrZN9HfLSdW7jLy",
+      "doc_id": 159609127,
+      "level": 1,
+      "id": 159609127,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "Sequel Ace数据库",
       "uuid": "DggROdWW1GTA0yg0",
       "url": "oy20nar1u89vt0gg",
-      "prev_uuid": "gWrZN9HfLSdW7jLy",
+      "prev_uuid": "AEe8WcgqS1OQ1bSg",
       "sibling_uuid": "eL6oxcNdzmw30ESi",
       "child_uuid": "",
       "parent_uuid": "gWrZN9HfLSdW7jLy",
@@ -5054,7 +5559,7 @@
     },
     {
       "type": "DOC",
-      "title": "Charles代理Yapi",
+      "title": "Charles",
       "uuid": "srR4tqBor38xAY-F",
       "url": "upsg6rok1a3kuapt",
       "prev_uuid": "qedgYgcjibBJVMTN",
@@ -5269,7 +5774,7 @@
       "url": "zuocy9lspbcs90fb",
       "prev_uuid": "mW6bsV64-FiI_OQT",
       "sibling_uuid": "",
-      "child_uuid": "Qs09PsZMS4-b8tPf",
+      "child_uuid": "VbBk03tdgLT5GSMQ",
       "parent_uuid": "",
       "doc_id": 145927972,
       "level": 0,
@@ -5279,10 +5784,25 @@
     },
     {
       "type": "DOC",
+      "title": "AI自动化",
+      "uuid": "VbBk03tdgLT5GSMQ",
+      "url": "go3ispr2g90wz0ga",
+      "prev_uuid": "OMWxM3TBgkb9Z7mi",
+      "sibling_uuid": "Qs09PsZMS4-b8tPf",
+      "child_uuid": "",
+      "parent_uuid": "OMWxM3TBgkb9Z7mi",
+      "doc_id": 161595301,
+      "level": 1,
+      "id": 161595301,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "GTP调研",
       "uuid": "Qs09PsZMS4-b8tPf",
       "url": "gsn1e24ios3vggyi",
-      "prev_uuid": "OMWxM3TBgkb9Z7mi",
+      "prev_uuid": "VbBk03tdgLT5GSMQ",
       "sibling_uuid": "UKiKc-PHtrHd4dcA",
       "child_uuid": "",
       "parent_uuid": "OMWxM3TBgkb9Z7mi",

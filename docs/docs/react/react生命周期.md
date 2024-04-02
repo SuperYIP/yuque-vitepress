@@ -1,4 +1,7 @@
 ### 简介
+> 参考：[https://juejin.cn/post/7096137407409422344](https://juejin.cn/post/7096137407409422344)
+> 
+
 react生命周期主要分为三个阶段：Mounting(挂载)、Updating(更新)、Unmounting(卸载)
 #### react16
 ![image.png](../../images/1dcdc0185ac720fe4c9c89c55a217618.png)

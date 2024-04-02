@@ -218,3 +218,36 @@ TouchableOpacity组件中设置`hitSlop`属性：hitSlop={{ top: 60, bottom: 60,
     <Icon name='roundCloseNew' color='#FFFFFF' size={32} style={{ opacity: 0.92 }} />
 </TouchableOpacity>
 ```
+### 画一条横线：画一个高度为1的View
+alignSelf属性：用于控制单个子元素在其父容器中的垂直对齐方式。通常，**alignSelf**属性用于覆盖父容器设置的**alignItems**属性，以便单个子元素可以具有与其余兄弟元素不同的对齐方式。<br />![image.png](../../images/e67b8a685661e4bc8a72a240f85b57d5.png)
+```objectivec
+// 横向分割线
+horDivideLine: {
+    height: 1,
+    width: 100,
+    backgroundColor: '#E1DFDF',
+    alignSelf: 'center'	
+}
+```
+
+
+
+## 易踩坑总结
+### 渲染组件时不要使用：变量名 && 组件的形式，有变量为空字符串时会有概率崩溃
+```python
+{
+    testVar && <Text> {testVar} </Text>
+}
+```
+这种写法的本意是当`testVar`变量有值时，渲染后面的Text组件。但是`testVar`没有值时（布尔值为false时），可能会有问题，当`testVar`变量为空字符串时，其布尔值也为false，不会渲染后面的Text组件，但是此时会把`testVar`变量当作组件渲染，而`testVar`变量值是字符串，没有被Text组件包围，就会报错。<br />健壮的写法是使用三目运算符(以后就使用这种写法)：
+```python
+{
+    testVar ? <Text> {testVar} </Text> : null
+}
+```
+或者，也可以把testVar转成布尔值：
+```python
+{
+    Boolean(testVar) && <Text> {testVar} </Text>
+}
+```
