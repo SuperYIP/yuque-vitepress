@@ -3169,6 +3169,28 @@
       "realName": "网址整理",
       "relativePath": "/机票售前客户端/网址整理.md",
       "docPath": "docs/docs/机票售前客户端"
+    },
+    {
+      "id": 164729322,
+      "doc_id": "gu13lqvwu7o3fock",
+      "updated": 1712567568000,
+      "properties": {
+        "title": "adr问题总结",
+        "urlname": "gu13lqvwu7o3fock",
+        "date": "2024-04-08 17:04:32",
+        "updated": "2024-04-08 17:12:48",
+        "cover": "https://cdn.nlark.com/yuque/0/2024/png/38602176/1712567518275-6a4692d1-5865-4c62-a19c-d96398dfe3dd.png",
+        "description": "1. sdk版本出错，导致不能启动app编译时报错：An issue was found when checking AAR metadata: ﻿ 1.  Dependency 'androidx.activity:activity:1.8.0' requires libraries and..."
+      },
+      "catalog": [
+        {
+          "title": "Android",
+          "doc_id": "gu13lqvwu7o3fock"
+        }
+      ],
+      "realName": "adr问题总结",
+      "relativePath": "/Android/adr问题总结.md",
+      "docPath": "docs/docs/Android"
     }
   ],
   "catalog": [
@@ -5069,7 +5091,7 @@
       "url": "",
       "prev_uuid": "DtppxjnEG3HHoSRe",
       "sibling_uuid": "y9SleXjmOzO5dsQj",
-      "child_uuid": "92RrjxjhM--4fNDw",
+      "child_uuid": "Csf_QTfY0QDitBCd",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -5079,10 +5101,25 @@
     },
     {
       "type": "DOC",
+      "title": "adr问题总结",
+      "uuid": "Csf_QTfY0QDitBCd",
+      "url": "gu13lqvwu7o3fock",
+      "prev_uuid": "R9ivqxpqfFoxlt8O",
+      "sibling_uuid": "92RrjxjhM--4fNDw",
+      "child_uuid": "",
+      "parent_uuid": "R9ivqxpqfFoxlt8O",
+      "doc_id": 164729322,
+      "level": 1,
+      "id": 164729322,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "搭建Android环境",
       "uuid": "92RrjxjhM--4fNDw",
       "url": "ctg8p1aotghfmwx7",
-      "prev_uuid": "R9ivqxpqfFoxlt8O",
+      "prev_uuid": "Csf_QTfY0QDitBCd",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "R9ivqxpqfFoxlt8O",
